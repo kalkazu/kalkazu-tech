@@ -5,7 +5,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-const FaqAccordion = ({value, titleTrigger, accordionContent}) => {
+const FaqAccordion = ({value, titleTrigger, accordionContent}: any) => {
   return (
     <div>
       <AccordionItem value={value}>

@@ -28,33 +28,7 @@ export function TabsDemo({
   imagesDummyContent5,
   altDummyContent5,
 
-}: {
-  title1?: string,
-  value1?: string,
-  content1?: string,
-  imagesDummyContent1?: string,
-  altDummyContent1?: string,
-  title2?: string,
-  value2?: string,
-  content2?: string,
-  imagesDummyContent2?: string,
-  altDummyContent2?: string,
-  title3?: string,
-  value3?: string,
-  content3?: string,
-  imagesDummyContent3?: string,
-  altDummyContent3?: string,
-  title4?: string,
-  value4?: string,
-  content4?: string,
-  imagesDummyContent4?: string,
-  altDummyContent4?: string,
-  title5?: string,
-  value5?: string,
-  content5?: string,
-  imagesDummyContent5?: string,
-  altDummyContent5?: string,
-}) {
+}: any) {
   const tabs = [
     {
       title: title1,
@@ -115,7 +89,7 @@ export function TabsDemo({
   );
 }
 
-const DummyContent = ({image, alt}: {image?: string, alt?: string}) => {
+const DummyContent = ({image, alt}: {image: string, alt: string}) => {
   return (
     <div>
      <Image

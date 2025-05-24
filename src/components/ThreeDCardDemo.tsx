@@ -4,7 +4,7 @@ import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import Image from "next/image";
 
-export function ThreeDCardDemo({title, content, image}) {
+export function ThreeDCardDemo({title, content, image}: any) {
   return (
     <div>
       <CardContainer className="inter-var">

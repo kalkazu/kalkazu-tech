@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { GlareCard } from "../components/ui/glare-card";
 
-export function GlareCardDemo({src, alt, title}) {
+export function GlareCardDemo({src, alt, title}: any) {
   return (
     <div className="bg-black/[0.96]">
       <GlareCard className="flex flex-col bg-black/[0.96] items-center justify-center">
