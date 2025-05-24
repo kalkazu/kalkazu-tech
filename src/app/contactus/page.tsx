@@ -97,7 +97,7 @@ export default function ContactForm() {
       setSubmitted(true);
     } catch (error) {
       toast({
-        title: "Error",
+        title: "Error: " + error,
         description: "Something went wrong",
       });
     } finally {

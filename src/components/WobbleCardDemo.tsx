@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { WobbleCard } from "../components/ui/wobble-card";
+import Image from "next/image";
 
 export function WobbleCardDemo() {
   return (
@@ -18,8 +19,8 @@ export function WobbleCardDemo() {
             popular AI platform for developers.
           </p>
         </div>
-        <img
-          src="/linear.webp"
+        <Image
+          src="/images/nike.png"
           width={500}
           height={500}
           alt="linear demo image"
@@ -45,8 +46,8 @@ export function WobbleCardDemo() {
             popular AI platform for developers.
           </p>
         </div>
-        <img
-          src="/linear.webp"
+        <Image
+          src="/images/nike.png"
           width={500}
           height={500}
           alt="linear demo image"

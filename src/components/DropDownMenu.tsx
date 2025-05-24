@@ -4,7 +4,7 @@ import Link from "next/link"
 interface DropDownMenuProps {
     onClose: () => void;
 }
-const DropDownMenu: React.FC<DropDownMenuProps> = ({onClose}) => {
+const DropDownMenu: React.FC<DropDownMenuProps> = () => {
   return (
     <motion.div
       className={`w-screen h-screen bg-gradient-to-b from-neutral-50 to-neutral-400

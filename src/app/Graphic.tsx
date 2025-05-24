@@ -1,6 +1,5 @@
 import CardGraphic from "@/components/CardGraphic";
 import { EvervaultCardDemo } from "@/components/EvervaultCardDemo";
-import PaintingCardGraphic from "@/components/PaintingCardGraphic";
 import React from "react";
 
 const Graphic = () => {

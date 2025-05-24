@@ -4,9 +4,10 @@ import { Lens } from "../components/ui/lens";
 
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
+import Image from "next/image";
 
 
-export function LensDemo({src, alt, title, content}) {
+export function LensDemo({src, alt, title, content}: {src: string; alt: string; title: string; content: string}) {
   const [hovering, setHovering] = useState(false);
 
   return (
@@ -16,7 +17,7 @@ export function LensDemo({src, alt, title, content}) {
         <Beams />
         <div className="relative z-10">
           <Lens hovering={hovering} setHovering={setHovering}>
-            <img
+            <Image
               src={src}
               alt={alt}
               width={500}
