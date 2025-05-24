@@ -1,4 +1,4 @@
-import CardGrid from "@/components/CardGrid";
+
 import React from "react";
 
 const Services = () => {
@@ -11,11 +11,6 @@ const Services = () => {
         <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-w-lg text-center mx-auto px-4">
           We&apos;ll going to hold your hand and build with your buiness dream !
         </p>
-      </div>
-      <div className="flex flex-col md:flex-row md:gap-10 p-5 justify-center items-center">
-         <CardGrid />
-         <CardGrid />
-         <CardGrid />
       </div>
     </div>
   );

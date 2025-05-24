@@ -3,7 +3,6 @@ import Navbar from "@/components/Navbar";
 import SliderOne from "@/components/ui/slider";
 import { Spotlight } from "@/components/ui/spotlight";
 import Link from "next/link";
-import Websites from "./Websites";
 import Graphic from "./Graphic";
 import Shopify from "./Shopify";
 import Services from "./Services";
@@ -44,7 +43,6 @@ export default function Home() {
         </Link>
         <div className="w-full pt-20">
           <SliderOne />
-          <Websites />
           <Graphic />
           <Shopify />
           <Services />
