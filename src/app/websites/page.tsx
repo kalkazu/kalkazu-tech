@@ -13,8 +13,6 @@ const page = () => {
   return (
     <div className="w-screen h-screen bg-black/[0.96]">
       <SparklesBackground />
-      
-      <Footer />
     </div>
   );
 };

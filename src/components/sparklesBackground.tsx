@@ -2,7 +2,7 @@
 import React from "react";
 import { SparklesCore } from "../components/ui/sparkles";
 import Navbar from "./Navbar";
-import { TabsDemo } from "./TabsDemo";
+import Footer from "./Footer";
 
 export function SparklesBackground() {
   return (
@@ -29,8 +29,7 @@ export function SparklesBackground() {
           <div className="absolute inset-x-20 top-0 bg-gradient-to-r from-transparent via-indigo-500 to-transparent h-px w-3/4" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-[5px] w-1/4 blur-sm" />
           <div className="absolute inset-x-60 top-0 bg-gradient-to-r from-transparent via-sky-500 to-transparent h-px w-1/4" />
-
-          {/* Core component
+          {/* Core component */}
           <SparklesCore
             background="transparent"
             minSize={0.4}
@@ -38,14 +37,16 @@ export function SparklesBackground() {
             particleDensity={1200}
             className="w-full h-full"
             particleColor="#FFFFFF"
-          /> */}
+          /> 
 
           {/* Radial Gradient to prevent sharp edges */}
           <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
         </div>
       </div>
-
-
+      <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
+        Some of my Job <br /> I hope you enjoy it
+      </div>
+     <Footer />
     </div>
   );
 }
