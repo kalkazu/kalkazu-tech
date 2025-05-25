@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 export function SparklesBackground() {
   return (
-    <div className="h-screen relative w-screen bg-black overflow-auto rounded-md">
+    <div className="h-screen relative w-screen bg-black overflow-hidden rounded-md">
       <Navbar />
       <div className="flex flex-col items-center justify-center w-full h-[40rem]">
         <div className="w-full absolute inset-0 h-screen">

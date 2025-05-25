@@ -15,7 +15,7 @@ const Navbar = () => {
   }
   return (
     <div className='flex justify-center items-center mt-10'>
-        <div className='px-5 md:p-2 flex items-center max-w-[1100px] justify-center gap-20 z-50 bg-black/[0.30] border border-b-gray-100 rounded-full'>
+        <div className='px-5 md:p-2 flex items-center max-w-[1100px] justify-center gap-20 z-50  border border-b-gray-100 rounded-full'>
             <div className=''>
                 <Link
                   className='cursor-pointer flex justify-center items-center gap-2 flex-row'
@@ -33,12 +33,12 @@ const Navbar = () => {
                 </Link>
             </div>
             <div className={`cursor-pointer hidden md:flex space-x-10
-               items-center text-slate-300 text-center bg-clip-text text-transparent 
+               items-center  text-center bg-clip-text text-transparent 
                bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50
               `}>
                 <Link href="/" className='hover:text-gray-50'>Home</Link>
                 <Link href="/websites" className='hover:text-gray-50'>Websites</Link>
-                <Link href="/apps-service" className='hover:text-gray-50'>Apps</Link>
+                <Link href="/appsservice" className='hover:text-gray-50'>Apps</Link>
                 <Link href="/graphicdesign" className='hover:text-gray-50'>Graphic</Link>
                 <Link href="/shopify" className='hover:text-gray-50'>Shopify</Link>
                 <Link href="/wordpress" className='hover:text-gray-50'>Wordpress</Link>
