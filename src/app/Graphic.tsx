@@ -14,9 +14,11 @@ const Graphic = () => {
           posts, we&apos;ve got you covered.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-x-[60px]">
+      <div className="grid grid-cols-1 md:flex md:justify-center md:items-center gap-15 p-10 md:grid-cols-2 mx-auto gap-x-[60px]">
         <EvervaultCardDemo />
-        <CardGraphic />
+        <div className="p-10 flex justify-center items-center">
+         <CardGraphic />
+        </div>
       </div>
     </div>
   );

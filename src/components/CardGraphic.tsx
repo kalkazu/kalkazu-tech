@@ -25,7 +25,7 @@ const CardGraphic = () => {
           dragElastic={0.18}
           dragConstraints={{top: 0, left: 0, right: 0, bottom: 0}}
           whileTap={{cursor: 'grabbing'}}
-          className='w-[426px] min-h-[600px] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] relative'
+          className='w-[326px] min-h-[500px] md:w-[426px] md:min-h-[600px] bg-[#e4dfdc] rounded-[30px] border-[4px] border-white px-[40px] py-[24px] relative'
           >
              {/* card logo */}
              <div className='mb-6'>
@@ -37,7 +37,7 @@ const CardGraphic = () => {
                  />
              </div>
              {/* card title */}
-             <h1 className='text-5xl mb-6 font-extrabold'>
+             <h1 className='text-3xl mb-6 font-extrabold'>
                 Nike Air Max Pre-Day
              </h1>
              {/* card Subtitle */}
@@ -46,11 +46,11 @@ const CardGraphic = () => {
                 the nike Air Max Pre-Day brings you a fast-paced look that&apos;s ready for today&apos;s world.
              </p>
              {/* btn & price wrapper */}
-             <div className='flex items-center gap-x-[20px] mb-12'>
-                <Link href="#" className='bg-[#2d2b2c] text-white text-base font-medium py-[16px] px-[40px] rounded-lg'>
+             <div className='flex gap-x-[20px] mb-12'>
+                <Link href="#" className='bg-[#2d2b2c] text-white text-base font-small py-[10px] px-[25px] rounded-lg'>
                     add to bag
                 </Link>
-                <div className='text-[24px] font-bold text-[#000000] mt-6'>$490.00</div>
+                <div className='text-14xl md:text-[24px] font-bold text-[#000000] mt-6'>$490.00</div>
              </div>
              {/* colors */}
              <ul className='flex gap-x-[10px]'>

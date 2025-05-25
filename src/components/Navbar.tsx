@@ -38,7 +38,7 @@ const Navbar = () => {
               `}>
                 <Link href="/" className='hover:text-gray-50'>Home</Link>
                 <Link href="/websites" className='hover:text-gray-50'>Websites</Link>
-                <Link href="/appsportfolio" className='hover:text-gray-50'>Apps</Link>
+                <Link href="/apps-service" className='hover:text-gray-50'>Apps</Link>
                 <Link href="/graphicdesign" className='hover:text-gray-50'>Graphic</Link>
                 <Link href="/shopify" className='hover:text-gray-50'>Shopify</Link>
                 <Link href="/wordpress" className='hover:text-gray-50'>Wordpress</Link>
