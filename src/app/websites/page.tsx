@@ -1,10 +1,9 @@
 "use client";
 
 
-import Footer from "@/components/Footer";
+
 
 import { SparklesBackground } from "@/components/sparklesBackground";
-import { TabsDemo } from "@/components/TabsDemo";
 
 
 import React from "react";
