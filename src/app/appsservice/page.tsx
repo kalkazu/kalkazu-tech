@@ -23,7 +23,8 @@ const page = () => {
         <div className="text-4xl mt-32 pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
           Build your App <br /> With Us !
         </div>
-        <div className="p-5 flex md:gap-10 overflow-hidden flex-col md:flex-row">
+        <div className="flex justify-center ">
+          <div className="p-5 flex md:gap-7 md:grid md:grid-cols-2 overflow-hidden flex-col md:flex-row">
           <SlideSection
             title={"Blog App"}
             image={"/images/blogapp.webp"}
@@ -56,13 +57,71 @@ const page = () => {
             href={"#"}
             children={"See Online"}
           />
+          </div>
         </div>
       </div>
       <div>
-        <div className="text-4xl mt-32 pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
+        <div className="text-4xl my-25 pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
           This is our App <br /> Development kills
         </div>
-        <Skills />
+        <div className="w-full flex justify-center items-center md:max-w-[968px] md:mx-auto">
+          <div className="flex justify-center items-center flex-wrap gap-3">
+            <Skills 
+             image={"/images/expo.png"} 
+             alt={"Expo logo"} 
+             children={"Expo"}
+             className={"size-10"}
+             />
+             <Skills 
+             image={"/images/reactmobile.png"} 
+             alt={"React Native logo"} 
+             children={"React Native"}
+             className={"size-8"}
+             />
+             <Skills 
+             image={"/images/redux.png"} 
+             alt={"Expo logo"} 
+             children={"Expo"}
+             className={"size-8"}
+             />
+             <Skills 
+             image={"/images/mongodb.png"} 
+             alt={"Mongo db Logo"} 
+             children={"MongoDB"}
+             className={"size-8"}
+             />
+             <Skills 
+             image={"/images/expressjs.png"} 
+             alt={"Expressjs logo"} 
+             children={"Express Js"}
+             className={"size-8"}
+             />
+             <Skills 
+             image={"/images/zodjs.png"} 
+             alt={"Zodjs logo"} 
+             children={"Zod Js"}
+             className={"size-8"}
+             />
+             <Skills 
+             image={"/images/jwt.png"} 
+             alt={"Jaison web token logo"} 
+             children={"Jwt"}
+             className={"size-8"}
+             />
+             <Skills 
+             image={"/images/postgres.png"} 
+             alt={"Postgres logo"} 
+             children={"Postgres"}
+             className={"size-8"}
+             />
+             <Skills 
+             image={"/images/neo.png"} 
+             alt={"Neo Postgres logo"} 
+             children={"Neo"}
+             className={"size-8"}
+             />
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

@@ -4,7 +4,7 @@ import { TextHoverEffectDemo } from './TextHoverEffectDemo'
 
 const Footer = () => {
   return (
-    <div className='bg-black/[0.97] flex flex-col justify-center mx-auto'>
+    <div className='bg-black/[0.97] flex flex-col justify-center w-full mx-auto'>
       <div className='flex flex-col md:flex-row justify-center md:justify-around p-5'>
         <div className='flex flex-col'>
           <div  className='flex items-center gap-2 justify-center'>

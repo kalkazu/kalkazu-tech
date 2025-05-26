@@ -1,8 +1,23 @@
+import Image from 'next/image'
 import React from 'react'
 
-const Skills = () => {
+const Skills = ({image, alt, className, children}: any) => {
   return (
-    <div>Skills</div>
+    <div className='border mt-3 w-[160px] h-[50px] rounded-full flex justify-center items-center'>
+        <div className='flex flex-row justify-center items-center gap-2'>
+            <div>
+                <Image 
+                 src={image} 
+                 alt={alt} 
+                 width={100} 
+                 height={100} 
+                 className={className} />
+            </div>
+            <div>
+                <p>{children}</p>
+            </div>
+        </div>
+    </div>
   )
 }
 
