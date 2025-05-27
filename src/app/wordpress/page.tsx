@@ -1,8 +1,6 @@
 'use client';
-import AnimatedPin from '@/components/AnimatedPin';
 import Features from '@/components/Features';
 import Footer from '@/components/Footer'
-import { HeroParallaxDemo } from '@/components/HeroParallaxDemo';
 import Navbar from '@/components/Navbar'
 import Pricing from '@/components/Pricing';
 import { Spotlight } from '@/components/ui/spotlight';
