@@ -5,7 +5,7 @@ import ParallaxBackground from './ParallaxBackground'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Astronaut } from './Astronaut'
 import { easing } from "maath"
-import { Float, Loader, OrbitControls } from '@react-three/drei';
+import { Float, Loader } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
 
 
