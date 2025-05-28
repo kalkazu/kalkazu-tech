@@ -8,7 +8,7 @@ import { Astronaut } from './Astronaut'
 import { easing } from "maath"
 import { Float, Loader } from '@react-three/drei';
 import { useMediaQuery } from 'react-responsive';
-extend({Canvas, useFrame, Float, Loader})
+extend({Canvas, useFrame, Float, Loader});
 
 const HeroSection = () => {
   const isMobile = useMediaQuery({ maxWidth: 853 });
