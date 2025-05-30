@@ -1,5 +1,4 @@
-import CardGraphic from "@/components/CardGraphic";
-import { EvervaultCardDemo } from "@/components/EvervaultCardDemo";
+
 import React from "react";
 
 const Graphic = () => {
@@ -15,10 +14,9 @@ const Graphic = () => {
         </p>
       </div>
       <div className="grid grid-cols-1 md:flex md:justify-center md:items-center gap-15 p-10 md:grid-cols-2 mx-auto gap-x-[60px]">
-        <EvervaultCardDemo />
         <div className="p-10 flex justify-center items-center">
-         <CardGraphic />
-        </div>
+           
+        </div>    
       </div>
     </div>
   );

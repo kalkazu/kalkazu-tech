@@ -1,18 +1,16 @@
 import React from "react";
-import { BackgroundLines } from "@/components/ui/background-lines";
+
 import Navbar from "./Navbar";
 import Image from "next/image";
-import Footer from "./Footer";
-import Pricing from "./Pricing";
 
 export function BackgroundLinesDemo() {
     
   return (
-    <div className="relative flex flex-col items-center">
+    <div className="relative flex flex-col items-center bg-black/[0.96]">
       <div className="">
         <Navbar />
       </div>
-      <BackgroundLines className="flex items-center justify-center w-full min-h-1/2 absolute top-0 flex-col px-4">
+      <div className="flex items-center justify-center w-full min-h-1/2 absolute top-0 flex-col px-4">
       <div className="">
         <Image 
         src={"/images/shopifylogo.png"} 
@@ -29,7 +27,7 @@ export function BackgroundLinesDemo() {
           Shopify, we can create exacly what you want create.
         </p>
       </div>
-      </BackgroundLines>
+      </div>
     </div>
   );
 }

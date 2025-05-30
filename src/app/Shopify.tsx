@@ -11,10 +11,10 @@ const stores = [
     button: "https://ads2fb-y8.myshopify.com/?pb=0"
   },
   {
-    image: "/images/s-2.webp",
-    quote:
-      "The team at Bird is amazing. they helped us create a stunning store that we are proud of.",
-    name: "Miguel Martinez",
+    image: "/images/boardbeach.png",
+    quote: "This beautiful board surf store made only to you see our work...",
+    name: "> Board Beach",
+    button: "https://smu5pz-8p.myshopify.com/?pb=0"
   },
 ];
 

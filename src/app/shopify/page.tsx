@@ -5,12 +5,12 @@ import { BackgroundLines } from "@/components/ui/background-lines";
 
 import React from "react";
 import Footer from "@/components/Footer";
+import SlideShopify from "@/components/SlideShopify";
 
 const page = () => {
   return (
     <div className="flex flex-col items-center">
       <Navbar />
-      <BackgroundLines className="-mt-40 z-0 flex items-center justify-center flex-col px-4">
       <div className="">
         <Image
         src={"/images/shopifylogo.png"} 
@@ -27,7 +27,7 @@ const page = () => {
           Shopify, we can create exacly what you want create.
         </p>
       </div>
-      </BackgroundLines>
+      <SlideShopify />
       <Footer />
     </div>
   );

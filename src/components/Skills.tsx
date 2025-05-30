@@ -14,7 +14,7 @@ const Skills = ({image, alt, className, children}: any) => {
                  className={className} />
             </div>
             <div>
-                <p>{children}</p>
+                <p className='text-white'>{children}</p>
             </div>
         </div>
     </div>

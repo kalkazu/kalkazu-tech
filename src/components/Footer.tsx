@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { TextHoverEffectDemo } from './TextHoverEffectDemo'
+
 
 const Footer = () => {
   return (
@@ -31,9 +31,6 @@ const Footer = () => {
                 <p className="font-thin -ml-5 bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">Wordpress</p>
             </div>
         </div>
-      </div>
-      <div>
-        <TextHoverEffectDemo />
       </div>
     </div>
   )

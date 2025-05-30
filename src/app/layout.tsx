@@ -8,7 +8,7 @@ const font = Poppins({
 }); 
 
 export const metadata: Metadata = {
-  title: "kalkazu agency",
+  title: "kalkazu Tech",
   description: "How can we help you today ?",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={font.className}>
+      <body className={`${font.className} bg-black`}>
         {children}
       </body>
     </html>
