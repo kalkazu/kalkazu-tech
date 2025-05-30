@@ -55,7 +55,7 @@ function CardAnimated() {
           />
         ))};
         <div className='flex justify-center md:mt-20'>
-          <button className='text-black mt-[320px] cursor-pointer bg-neutral-400 rounded-md p-3' onClick={handleNext}>Next ></button>
+          <button className='text-black mt-[320px] cursor-pointer bg-neutral-400 rounded-md p-3' onClick={handleNext}>Next</button>
         </div>
        </div>
 

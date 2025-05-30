@@ -1,7 +1,7 @@
-import { BackgroundLinesDemo } from "@/components/BackgroundLinesDemo";
+
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
-import { BackgroundLines } from "@/components/ui/background-lines";
+
 
 import React from "react";
 import Footer from "@/components/Footer";
