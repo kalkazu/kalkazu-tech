@@ -1,6 +1,6 @@
 "use client";
 import Navbar from "@/components/Navbar";
-import SliderOne from "@/components/ui/slider";
+
 import { Spotlight } from "@/components/ui/spotlight";
 import Link from "next/link";
 import Graphic from "./Graphic";
@@ -9,7 +9,8 @@ import Services from "./Services";
 import Faq from "./Faq";
 import Footer from "@/components/Footer";
 import Image from "next/image";
-
+import { imgSectionHero } from "@/dataBase/data";
+import Slides from "@/components/Slides";
 
 export default function Home() {
   return (
@@ -18,11 +19,12 @@ export default function Home() {
       <Spotlight className="-top-1/4 md:left-70 md:-top-1/4" fill="white" />
       <div className="p-4 mx-auto z-10 w-full pt-10 md:pt-32 px-2">
         <div>
-          <Image src={"/images/kalkazuvideotransparent.gif"}
-           alt="Kalkazu video logo"
-           width={500}
-           height={500}
-           className="mx-auto -mt-8"
+          <Image
+            src={"/images/kalkazuvideotransparent.gif"}
+            alt="Kalkazu video logo"
+            width={500}
+            height={500}
+            className="mx-auto -mt-8"
           />
         </div>
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
@@ -42,7 +44,7 @@ export default function Home() {
           Book a call
         </Link>
         <div className="w-full pt-20">
-          <SliderOne />
+          <Slides props={imgSectionHero} />
           <Graphic />
           <Shopify />
           <Services />

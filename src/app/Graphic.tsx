@@ -1,4 +1,5 @@
 
+import GridSection from "@/components/GridSection";
 import React from "react";
 
 const Graphic = () => {
@@ -13,9 +14,9 @@ const Graphic = () => {
           posts, we&apos;ve got you covered.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:flex md:justify-center md:items-center gap-15 p-10 md:grid-cols-2 mx-auto gap-x-[60px]">
-        <div className="p-10 flex justify-center items-center">
-           
+      <div className="">
+        <div className="">
+           <GridSection />
         </div>    
       </div>
     </div>

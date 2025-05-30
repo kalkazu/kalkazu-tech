@@ -20,3 +20,30 @@ export const faqInformation = [
         accordionContent: "We are the best on the tech market",
     }
 ]
+
+export const imgSectionHero = [
+    {
+        image: "/images/3dportfolio.png",
+        alt: "3D Portfolio",
+    },
+    {
+        image: "/images/portaljob.png",
+        alt: "Portal Job",
+    },
+    {
+        image: "/images/bank.png",
+        alt: "logo",
+    },
+    {
+        image: "/images/titanium.png",
+        alt: "Titanium store",
+    },
+    {
+        image: "/images/xora.png",
+        alt: "Xora lading page",
+    },
+    {
+        image: "/images/teezzstore.png",
+        alt: "teezzstore",
+    },
+]

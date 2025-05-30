@@ -1,4 +1,5 @@
 
+import SlideSection from "@/components/SlideSection";
 import React from "react";
 
 const Services = () => {
@@ -11,6 +12,42 @@ const Services = () => {
         <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-w-lg text-center mx-auto px-4">
           We&apos;ll going to hold your hand and build with your buiness dream !
         </p>
+         <div className="flex justify-center">
+            <div className="flex flex-col md:grid md:grid-cols-2 gap-1 md:gap-4">
+              <SlideSection
+              title={"Blog App"}
+              image={"/images/blogapp.webp"}
+              alt="Blog app"
+              className={"w-full h-full md:w-[350px] md:h-[300px] rounded-lg"}
+              href={"#"}
+              children={"See Online"}
+              />
+              <SlideSection
+              title={"Blog App"}
+              image={"/images/blogapp.webp"}
+              alt="Blog app"
+              className={"w-full h-full md:w-[350px] md:h-[300px] rounded-lg"}
+              href={"#"}
+              children={"See Online"}
+              />
+              <SlideSection
+              title={"Blog App"}
+              image={"/images/blogapp.webp"}
+              alt="Blog app"
+              className={"w-full h-full md:w-[350px] md:h-[300px] rounded-lg"}
+              href={"#"}
+              children={"See Online"}
+              />
+              <SlideSection
+              title={"Blog App"}
+              image={"/images/blogapp.webp"}
+              alt="Blog app"
+              className={"w-full h-full md:w-[350px] md:h-[300px] rounded-lg"}
+              href={"#"}
+              children={"See Online"}
+              />
+            </div>
+         </div>
       </div>
     </div>
   );

@@ -4,7 +4,9 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Pricing from "@/components/Pricing";
 import Skills from "@/components/Skills";
-import SlideWordpress from "@/components/SlideWordPress";
+import Slides from "@/components/Slides";
+
+import { imgSectionHero } from "@/dataBase/data";
 
 import Image from "next/image";
 import React from "react";
@@ -25,7 +27,7 @@ const page = () => {
           Your Wordpress, <br /> Ecommerce or Website
         </div>
       </div>
-      <SlideWordpress />
+      <Slides props={imgSectionHero} />
       <div className="flex flex-col mb-6">
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
           Our Wordpress, <br /> Skills !
