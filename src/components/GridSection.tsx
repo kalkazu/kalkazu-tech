@@ -8,14 +8,20 @@ import Link from 'next/link'
 
 const GridSection = () => {
   return (
-    <div className='min-hscreen bg-zinc-900 px-4 py-12 text-zinc-50'>
-       <div className='mx-auto max-w-4xl grid grid-cols-12 gap-4 grid-flow-dense'>
+    <div className='min-hscreen bg-black px-4 py-12 text-zinc-50'>
+       <motion.div 
+       initial="initial"
+       animate="animate"
+       transition={{
+        staggerChildren: 0.05,
+       }}
+       className='mx-auto max-w-4xl grid grid-cols-12 gap-4 grid-flow-dense'>
            <HeaderBlock />
            <SocialsBlock />
            <AboutBlock />
            <LocationBlock />
            <EmailListBlock />
-       </div> 
+       </motion.div> 
     </div>
   )
 }
@@ -25,6 +31,24 @@ type Props = {
 const Block = ({className, ...rest}: Props) => {
     return (
         <motion.div 
+        variants={{
+            initial: {
+                scale: 0.5,
+                y: 50,
+                opacity: 0,
+            },
+            animate: {
+              scale: 1,
+              y: 0,
+              opacity: 1, 
+            }
+        }}
+        transition={{
+            type: "spring",
+            mass: 3,
+            stiffness: 400,
+            damping: 50,
+        }}
         className={twMerge("col-span-4 rounded-lg border border-zinc-700 bg-zinc-800 p-6", className)}
         {...rest}
         />
