@@ -1,7 +1,5 @@
 "use client";
 import Navbar from "@/components/Navbar";
-
-import { Spotlight } from "@/components/ui/spotlight";
 import Link from "next/link";
 import Graphic from "./Graphic";
 import Shopify from "./Shopify";
@@ -16,7 +14,7 @@ export default function Home() {
   return (
     <div className="w-full md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
       <Navbar />
-      <Spotlight className="-top-1/4 md:left-70 md:-top-1/4" fill="white" />
+      {/* <Spotlight className="-top-1/4 md:left-70 md:-top-1/4" fill="white" /> */}
       <div className="p-4 mx-auto z-10 w-full pt-10 md:pt-32 px-2">
         <div>
           <Image

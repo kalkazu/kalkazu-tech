@@ -30,6 +30,6 @@
     "src/components/Astronaut.jsx",
     "src/components/SectionBee.jsx",
     "src/components/Pagination.jsx"
-  ],
+, "src/components/DesktopMenu.tsx", "src/components/NavbarSection.tsx"  ],
   "exclude": ["node_modules"]
 }

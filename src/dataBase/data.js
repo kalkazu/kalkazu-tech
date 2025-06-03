@@ -1,3 +1,11 @@
+import { ScreenShare, TabletSmartphone } from "lucide-react";
+import { ShoppingBag } from "lucide-react";
+import { ShieldPlus } from "lucide-react";
+
+
+
+
+
 export const faqInformation = [
     {
         value: "item-1",
@@ -19,7 +27,7 @@ export const faqInformation = [
         titleTrigger: "About Us !",
         accordionContent: "We are the best on the tech market",
     }
-]
+];
 
 export const imgSectionHero = [
     {
@@ -46,4 +54,48 @@ export const imgSectionHero = [
         image: "/images/teezzstore.png",
         alt: "teezzstore",
     },
-]
+];
+
+
+
+
+export const Menus = [
+  {
+    name: "Features",
+    subMenuHeading: ["Websites", "Apps"],
+    subMenu: [
+      {
+        name: "Your Websites",
+        desc: "Build with Us",
+        icon: ScreenShare,
+        href: '/websites'
+      },
+      {
+        name: "Your App",
+        desc: "Build with Us",
+        icon: TabletSmartphone,
+        href: '/appservice'
+      },
+    ],
+    gridCols: 2,
+  },
+  {
+    name: "Services",
+    subMenuHeading: ["Softwares"],
+    subMenu: [
+      {
+        name: "Split kodex",
+        desc: "Build your website",
+        icon: ShieldPlus,
+        href: 'https://google.com'
+      },
+    ],
+    gridCols: 1,
+  },
+  {
+    name: "Blog"
+  },
+  {
+    name: "Contact",
+  },
+];
