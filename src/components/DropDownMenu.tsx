@@ -19,8 +19,8 @@ const DropDownMenu: React.FC<DropDownMenuProps> = () => {
             <Link href="/websites" className='text-black text-2xl'>
             Websites
             </Link>
-            <Link href="/apps" className='text-black text-2xl'>Apps</Link>
-            <Link href="/graphic-design" className='text-black text-2xl'>Graphic</Link>
+            <Link href="/appservice" className='text-black text-2xl'>Apps</Link>
+            <Link href="/graphicdesign" className='text-black text-2xl'>Graphic</Link>
             <Link href="/shopify" className='text-black text-2xl'>Shopify</Link>
             <Link href="/wordpress" className='text-black text-2xl'>Wordpress</Link>
       </div>
