@@ -33,7 +33,7 @@ export default function MobMenu({ Menus }: any) {
         animate={{ x: isOpen ? "0%" : "-100%" }}
       >
         <ul className="mt-32">
-          {Menus.map(({ name, subMenu }, i) => {
+          {Menus.map(({ name, subMenu }: any, i: any) => {
             const isClicked = clicked === i;
             const hasSubMenu = subMenu?.length;
             return (
@@ -56,7 +56,7 @@ export default function MobMenu({ Menus }: any) {
                     variants={subMenuDrawer}
                     className="ml-5"
                   >
-                    {subMenu.map(({ name, icon: Icon }) => (
+                    {subMenu.map(({ name, icon: Icon }: any) => (
                       <li
                         
                         key={name}

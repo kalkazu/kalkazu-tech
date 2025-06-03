@@ -64,7 +64,7 @@ export default function DesktopMenu({ menu }: any) {
             }`}
           >
             {hasSubMenu &&
-              menu.subMenu.map((submenu, i) => (
+              menu.subMenu.map((submenu: any, i: any) => (
                 <div className="relative cursor-pointer" key={i}>
                   {menu.gridCols > 1 && menu?.subMenuHeading?.[i] && (
                     <p className="text-sm mb-4 text-white">
