@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, ChevronDown } from "lucide-react";
+import Link from "next/link";
 
 export default function MobMenu({ Menus }: any) {
   const [isOpen, setIsOpen] = useState(false);
@@ -56,15 +57,15 @@ export default function MobMenu({ Menus }: any) {
                     variants={subMenuDrawer}
                     className="ml-5"
                   >
-                    {subMenu.map(({ name, icon: Icon }: any) => (
-                      <li
-                        
+                    {subMenu.map(({ name, href, icon: Icon }: any) => (
+                      <Link
+                        href={href}
                         key={name}
                         className="p-2 flex-center hover:bg-white/5 rounded-md gap-x-2 cursor-pointer"
                       >
                         <Icon size={17} />
                         {name}
-                      </li>
+                      </Link>
                     ))}
                   </motion.ul>
                 )}
