@@ -6,6 +6,7 @@ import { Menus } from '@/dataBase/data';
 import DesktopMenu from './DesktopMenu';
 import MobMenu from './MobMenu';
 
+
 const Navbar = () => {
   const [isDropDownisible, setIsDropDownVisible] = useState(false);
   const toggleDropDow = () => {
@@ -41,6 +42,11 @@ const Navbar = () => {
                   <DesktopMenu menu={menu} key={menu.name}/>
                   ))
               }
+              <li>
+                <Link href={"/contact"} className='flex-center text-white gap-1 hover:bg-white/5 cursor-pointer px-3 py-1 rounded-xl'>
+                  Contact
+                </Link>
+              </li>
             </ul>
             <div className="flex-center gap-x-5">
               <div className="lg:hidden">

@@ -21,7 +21,7 @@ const SlideSection = ({title, image, alt, content, className, href, children}: a
                 <h2 className='text-4xl mt-5 pb-5 md:text-4xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50'>{title}</h2>
                 <p>{content}</p>
               </div>
-              <Link href={href} target='_blank' className='flex justify-center items-center border w-[150px] h-[40px] rounded-full mx-auto text-center hover:bg-neutral-300 hover:text-neutral-500'>
+              <Link href={href} target='_blank' className='flex text-white justify-center items-center border w-[150px] h-[40px] rounded-full mx-auto text-center hover:bg-neutral-300 hover:text-neutral-500'>
                 {children}
               </Link>
         </div>

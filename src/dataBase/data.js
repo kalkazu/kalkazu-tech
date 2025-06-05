@@ -87,15 +87,34 @@ export const Menus = [
         name: "Split kodex",
         desc: "Build your website",
         icon: ShieldPlus,
-        href: 'https://google.com'
+        href: '#'
       },
     ],
     gridCols: 1,
   },
   {
-    name: "Blog"
-  },
-  {
-    name: "Contact",
+    name: "Blog",
+    subMenuHeading: ["Dev", "AI"],
+    subMenu: [
+      {
+        name: "Your Websites",
+        desc: "Build with Us",
+        icon: ScreenShare,
+        href: '#'
+      },
+      {
+        name: "Your App",
+        desc: "Build with Us",
+        icon: TabletSmartphone,
+        href: '#'
+      },
+      {
+        name: "Your App",
+        desc: "Build with Us",
+        icon: TabletSmartphone,
+        href: '#'
+      },
+    ],
+    gridCols: 2,
   },
 ];

@@ -1,9 +1,13 @@
+"use client";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
+import Slides from "@/components/Slides";
 import SlideSection from "@/components/SlideSection";
 import Image from "next/image";
 import React from "react";
+import { imgSectionHero } from "@/dataBase/data.js";
+import GridAppSection from "@/components/GridAppSection";
 
 const page = () => {
   return (
@@ -19,9 +23,21 @@ const page = () => {
         height={100}
         className="w-full md:w-[1080px] p-5 mx-auto"
       />
+      <div>
+        <div className="text-4xl mt-32 pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
+          This are <br /> Our work !
+        </div>
+        <Slides props={imgSectionHero} />
+      </div>
+      <div>
+        <div className="text-4xl mt-32 pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
+           Check our <br /> Media !
+        </div>
+        <GridAppSection />
+      </div>
       <div className="mb-5">
         <div className="text-4xl mt-32 pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
-          Build your App <br /> With Us !
+          Check our <br /> Services!
         </div>
         <div className="flex justify-center ">
           <div className="p-5 flex md:gap-7 md:grid md:grid-cols-2 overflow-hidden flex-col md:flex-row">
