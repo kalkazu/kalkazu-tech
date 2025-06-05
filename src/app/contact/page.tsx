@@ -17,10 +17,10 @@ const page = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col mt-20 md:justify-between max-w-[1100px]">
-          <div className="w-[50%] flex flex-col justify-start items-start mx-auto">
+        <div className="flex flex-col md:flex-row mt-20 md:justify-between max-w-[1100px]">
+          <div className="w-[50%] flex flex-col md:justify-center md:items-start mx-auto">
             <div>
-              <h2 className="text-xl mb-1 md:text text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
+              <h2 className="text-xl mb-1 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
                 Whatsapp
               </h2>
               <Link href={"#"} className="hover:underline text-neutral-500">
