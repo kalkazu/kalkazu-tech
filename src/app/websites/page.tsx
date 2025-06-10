@@ -5,20 +5,21 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Skills from "@/components/Skills";
 import SlideSection from "@/components/SlideSection";
+import { CldImage } from "next-cloudinary";
 
-import Image from "next/image";
+
 
 const page = () => {
   return (
     <div className="bg-black relative overflow-hidden">
       <Navbar />
       <div className="flex flex-col">
-        <Image
-          src={"/images/codesimbol.png"}
+        <CldImage
+          src={"codesimbol_uxm0dn"}
           alt="Code simbol"
           width={500}
           height={500}
-          className="mx-auto"
+          className="mx-auto mt-20"
         />
         <h2 className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-300 to-neutral-800 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-5 font-bold ">
           Create your Website, <br />
@@ -77,43 +78,43 @@ const page = () => {
         </div>
         <div className="flex gap-3 justify-center items-center flex-wrap">
           <Skills
-            image={"/images/react.png"}
+            image={"reactjs_pjxj09"}
             alt={"React logo"}
             className={"w-[40px] h-[40px] text-white"}
             children={"React Js"}
           />
           <Skills
-            image={"/images/redux.png"}
+            image={"redux_bjahms"}
             alt={"Redux logo"}
             className={"w-[40px] h-[40px] text-white"}
             children={"Redux Js"}
           />
           <Skills
-            image={"/images/node-js.png"}
+            image={"node-js_cf76wv"}
             alt={"Nodejs logo"}
             className={"w-[40px] h-[40px] text-white"}
             children={"Node Js"}
           />
           <Skills
-            image={"/images/expressjs.png"}
+            image={"expressjss_mhhuu2"}
             alt={"Express js logo"}
             className={"w-[40px] h-[40px] text-white"}
             children={"Express Js"}
           />
           <Skills
-            image={"/images/postgres.png"}
+            image={"postgress_g3tkor"}
             alt={"Postgres logo"}
             className={"w-[40px] h-[40px] text-white"}
             children={"Postgres"}
           />
           <Skills
-            image={"/images/mongodb.png"}
-            alt={"React logo"}
+            image={"mongodb_pyvnnx"}
+            alt={"Mongo DB Logo"}
             className={"w-[40px] h-[40px] text-white"}
             children={"MongoDB"}
           />
           <Skills
-            image={"/images/tailwindcss.png"}
+            image={"tailwindcss_gd4sf9"}
             alt={"Tailwindcss logo"}
             className={"w-[40px] h-[40px] text-white"}
             children={"Tailwind Css"}

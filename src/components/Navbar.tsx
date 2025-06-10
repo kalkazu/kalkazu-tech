@@ -1,5 +1,5 @@
 'use client';
-import Image from 'next/image'
+import {CldImage} from 'next-cloudinary'
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { Menus } from '@/dataBase/data';
@@ -23,9 +23,9 @@ const Navbar = () => {
                   className='cursor-pointer flex justify-center items-center gap-1 flex-row'
                   href="/"
                 >
-                    <Image 
+                    <CldImage 
                       priority
-                      src="/images/kalkazutechlogo.png"
+                      src={'kalkazu_transparent_bqr6rh'}
                       alt='Logo'
                       width={100}
                       height={100}
@@ -36,12 +36,22 @@ const Navbar = () => {
             </div>
             {/* menus */}
             {/* {Desktop Menu} */}
-            <ul className='gap-x-1 lg:flex lg:flex-center hidden'>
+            <ul className='gap-x-1 md:flex md:justify-center md:items-center hidden'>
+              <li>
+                <Link href={"/"} className='text-center text-white gap-1 hover:bg-white/5 cursor-pointer px-3 py-1 rounded-xl'>
+                  Home
+                </Link>
+             </li>
               {
                   Menus.map((menu) => (
                   <DesktopMenu menu={menu} key={menu.name}/>
                   ))
               }
+              <li>
+                <Link href={"/blog"} className='text-center text-white gap-1 hover:bg-white/5 cursor-pointer px-3 py-1 rounded-xl'>
+                  Blog
+                </Link>
+             </li>
               <li>
                 <Link href={"/contact"} className='flex-center text-white gap-1 hover:bg-white/5 cursor-pointer px-3 py-1 rounded-xl'>
                   Contact

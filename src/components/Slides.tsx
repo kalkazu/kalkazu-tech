@@ -6,6 +6,7 @@ import { imgSectionHero } from "@/dataBase/data";
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import { CldImage } from "next-cloudinary";
 
 const Slides = (props: any) => {
    const isMediumScreen = useMediaQuery({minWidth: 768, maxWidth: 1023});
@@ -29,7 +30,7 @@ const Slides = (props: any) => {
         
           {props.props.map((images: any ,index: any) => (
             <div key={index} className="rounded-md px-2 md:p-10">
-              <Image 
+              <CldImage
                 priority
                 src={images.image}
                 alt={images.alt}

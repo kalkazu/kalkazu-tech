@@ -4,12 +4,13 @@ import Link from 'next/link'
 import React from 'react'
 import { motion } from "framer-motion"
 
+
 const SlideSection = ({title, image, alt, content, className, href, children}: any) => {
   return (
-    <motion.div className='p-5 rounded-lg my-10 border max-w-[380px] bg-gradient-to-b bg-neutral-900 bg-opacity-50 backdrop-blur-md'>
+    <motion.div className='p-5 rounded-lg border max-w-[380px] bg-gradient-to-b bg-neutral-900 bg-opacity-50 backdrop-blur-md'>
         <div>
             <div>
-                <Image 
+                <Image
                 src={image} 
                 alt={alt}
                 width={500} 

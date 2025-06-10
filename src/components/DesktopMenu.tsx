@@ -1,7 +1,9 @@
+"use client";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { CldImage } from "next-cloudinary";
 
 export default function DesktopMenu({ menu }: any) {
   const [isHover, toggleHover] = useState(false);
@@ -73,7 +75,14 @@ export default function DesktopMenu({ menu }: any) {
                   )}
                   <Link href={submenu.href} className="flex-center gap-x-4 group/menubox">
                     <div className="bg-white w-fit p-2 rounded-md group-hover/menubox:bg-gray-700 group-hover/menubox:text-gray-900 duration-300">
-                      {submenu.icon && <submenu.icon />}
+                      {submenu.icon && (
+                        <CldImage 
+                          src={submenu.icon}
+                          alt={submenu.alt}
+                          width={70}
+                          height={70}
+                        />
+                      )}
                     </div>
                     <div>
                       <h6 className="font-semibold text-neutral-200">{submenu.name}</h6>

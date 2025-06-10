@@ -14,45 +14,41 @@ export const faqInformation = [
     },
     {
         value: "item-2",
-        titleTrigger: "About Us !",
+        titleTrigger: "Websites",
         accordionContent: "We are the best on the tech market",
     },
     {
         value: "item-3",
-        titleTrigger: "About Us !",
+        titleTrigger: "About Apps",
         accordionContent: "We are the best on the tech market",
     },
     {
         value: "item-4",
-        titleTrigger: "About Us !",
+        titleTrigger: "Services",
         accordionContent: "We are the best on the tech market",
     }
 ];
 
 export const imgSectionHero = [
     {
-        image: "/images/3dportfolio.png",
+        image: "3dportfolio_dnbfqa",
         alt: "3D Portfolio",
     },
     {
-        image: "/images/portaljob.png",
+        image: "portaljob_rfrdjr",
         alt: "Portal Job",
     },
     {
-        image: "/images/bank.png",
+        image: "bank_eithfw",
         alt: "logo",
     },
     {
-        image: "/images/titanium.png",
+        image: "titanium_q83g8b",
         alt: "Titanium store",
     },
     {
-        image: "/images/xora.png",
+        image: "xora_q3df8k",
         alt: "Xora lading page",
-    },
-    {
-        image: "/images/teezzstore.png",
-        alt: "teezzstore",
     },
 ];
 
@@ -67,13 +63,15 @@ export const Menus = [
       {
         name: "Your Websites",
         desc: "Build with Us",
-        icon: ScreenShare,
+        alt: "Website Page",
+        icon:'codesimbol_uxm0dn',
         href: '/websites'
       },
       {
         name: "Your App",
         desc: "Build with Us",
-        icon: TabletSmartphone,
+        alt: "App Page",
+        icon: "mobile_civq9p",
         href: '/appservice'
       },
     ],
@@ -86,35 +84,11 @@ export const Menus = [
       {
         name: "Split kodex",
         desc: "Build your website",
-        icon: ShieldPlus,
+        alt: "Split Kodex",
+        icon:  'splitkodex_k0g7py',
         href: '#'
       },
     ],
     gridCols: 1,
-  },
-  {
-    name: "Blog",
-    subMenuHeading: ["Dev", "AI"],
-    subMenu: [
-      {
-        name: "Your Websites",
-        desc: "Build with Us",
-        icon: ScreenShare,
-        href: '#'
-      },
-      {
-        name: "Your App",
-        desc: "Build with Us",
-        icon: TabletSmartphone,
-        href: '#'
-      },
-      {
-        name: "Your App",
-        desc: "Build with Us",
-        icon: TabletSmartphone,
-        href: '#'
-      },
-    ],
-    gridCols: 2,
   },
 ];

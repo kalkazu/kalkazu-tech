@@ -7,13 +7,14 @@ const Services = () => {
     <div>
       <div className="p-4 mx-auto z-10 w-full pt-10 md:pt-32 px-2">
         <div className="text-4xl pb-5 md:text-7xl px-6 text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
-          Build your buiness <br /> with our services
+          Check Our <br /> Apps Portfolio
         </div>
         <p className="mt-4 text-lg font-normal text-neutral-300 max-w-lg text-w-lg text-center mx-auto px-4">
-          We&apos;ll going to hold your hand and build with your buiness dream !
+            Create the stunning App<br />
+            like this for your business
         </p>
-         <div className="flex justify-center">
-            <div className="flex flex-col md:grid md:grid-cols-2 gap-1 md:gap-4">
+         <div className="mt-10">
+            <div className="flex flex-row flex-wrap gap-3 justify-center items-center">
               <SlideSection
               title={"Blog App"}
               image={"/images/blogapp.webp"}

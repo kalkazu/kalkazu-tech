@@ -83,55 +83,55 @@ const page = () => {
         <div className="w-full flex justify-center items-center md:max-w-[968px] md:mx-auto">
           <div className="flex justify-center items-center flex-wrap gap-3">
             <Skills 
-             image={"/images/expo.png"} 
+             image={"expo_pf61bd"} 
              alt={"Expo logo"} 
              children={"Expo"}
              className={"size-10"}
              />
              <Skills 
-             image={"/images/reactmobile.png"} 
+             image={"reactnative_kwkrbj"} 
              alt={"React Native logo"} 
              children={"React Native"}
              className={"size-8"}
              />
              <Skills 
-             image={"/images/redux.png"} 
-             alt={"Expo logo"} 
-             children={"Expo"}
+             image={"redux_bjahms"} 
+             alt={"Redux logo"} 
+             children={"Redux"}
              className={"size-8"}
              />
              <Skills 
-             image={"/images/mongodb.png"} 
+             image={"mongodb_pyvnnx"} 
              alt={"Mongo db Logo"} 
              children={"MongoDB"}
              className={"size-8"}
              />
              <Skills 
-             image={"/images/expressjs.png"} 
+             image={"expressjss_mhhuu2"} 
              alt={"Expressjs logo"} 
              children={"Express Js"}
              className={"size-8"}
              />
              <Skills 
-             image={"/images/zodjs.png"} 
+             image={"zod_gxlrwo"} 
              alt={"Zodjs logo"} 
              children={"Zod Js"}
              className={"size-8"}
              />
              <Skills 
-             image={"/images/jwt.png"} 
+             image={"jwt_x1dpop"} 
              alt={"Jaison web token logo"} 
              children={"Jwt"}
              className={"size-8"}
              />
              <Skills 
-             image={"/images/postgres.png"} 
+             image={"postgress_g3tkor"} 
              alt={"Postgres logo"} 
              children={"Postgres"}
              className={"size-8"}
              />
              <Skills 
-             image={"/images/neo.png"} 
+             image={"neopostgress_h9a40z"} 
              alt={"Neo Postgres logo"} 
              children={"Neo"}
              className={"size-8"}

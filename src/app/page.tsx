@@ -9,6 +9,7 @@ import Footer from "@/components/Footer";
 import Image from "next/image";
 import { imgSectionHero } from "@/dataBase/data";
 import Slides from "@/components/Slides";
+import SectionBlog from "@/components/SectionBlog";
 
 export default function Home() {
   return (
@@ -46,6 +47,7 @@ export default function Home() {
           <Graphic />
           <Shopify />
           <Services />
+          <SectionBlog />
           <Faq />
           <Footer />
         </div>

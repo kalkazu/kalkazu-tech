@@ -57,7 +57,7 @@ const page = () => {
                 </div>
                 <div className="mt-2">
                   <span className="text-sm mb-1 md:text text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to bg-neutral-400 bg-opacity-50">
-                    Your Name
+                    Your Email
                   </span>
                   <input
                     type="text"

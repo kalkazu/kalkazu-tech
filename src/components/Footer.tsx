@@ -1,4 +1,5 @@
-import Image from 'next/image'
+"use client";
+import { CldImage } from 'next-cloudinary';
 import React from 'react'
 
 
@@ -8,8 +9,8 @@ const Footer = () => {
       <div className='flex flex-col md:flex-row justify-center md:justify-around p-5'>
         <div className='flex flex-col'>
           <div  className='flex items-center gap-2 justify-center'>
-            <Image 
-              src="/images/kalkazutechlogo.png" 
+            <CldImage
+              src={"kalkazu_transparent_bqr6rh"} 
               alt="Kalkazu tech" 
               width={100} 
               height={100} 
